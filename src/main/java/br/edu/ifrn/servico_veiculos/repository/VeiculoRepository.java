@@ -1,9 +1,10 @@
 package br.edu.ifrn.servico_veiculos.repository;
 
-import br.edu.ifrn.servico_veiculos.entity.Veiculo;
+import br.edu.ifrn.servico_veiculos.model.Veiculo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface VeiculoRepository extends JpaRepository<Veiculo, Long> {
+
 }

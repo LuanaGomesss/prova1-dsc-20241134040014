@@ -1,4 +1,4 @@
-package br.edu.ifrn.servico_veiculos.dto.request;
+package br.edu.ifrn.servico_veiculos.model.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

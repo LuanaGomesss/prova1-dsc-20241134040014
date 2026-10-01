@@ -1,4 +1,4 @@
-package br.edu.ifrn.servico_veiculos.dto.response;
+package br.edu.ifrn.servico_veiculos.model.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

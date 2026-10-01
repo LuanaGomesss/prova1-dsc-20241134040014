@@ -1,4 +1,4 @@
-package br.edu.ifrn.servico_veiculos.entity;
+package br.edu.ifrn.servico_veiculos.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
