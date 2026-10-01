@@ -59,19 +59,4 @@ public class VeiculoService {
     private VeiculoResponseDTO toResponseDTO(Veiculo entity) {
         return new VeiculoResponseDTO(entity.getId(), entity.getPlaca(), entity.getModelo(), entity.getAnoFabricacao(), entity.getTipo(), entity.getNomeProprietario());
     }
-
-    private List<Veiculo> listar (String placa, String tipo, Long id){
-        if(placa != null && !placa.isEmpty()){
-            return veiculoRepository.findByPlaca(placa);
-        }
-        else if(tipo != null && !tipo.isEmpty()){
-            return veiculoRepository.findByTipo(tipo);
-        }
-        else if(placa != null && id != null){
-            return veiculoRepository.findPlacaAndIdNot(placa, id);
-        }
-        else {
-            return veiculoRepository.findAll();
-        }
-    }
 }
